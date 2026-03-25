@@ -2,10 +2,9 @@ import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 const images = [
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-2.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-1.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-4.jpg',
-  'https://cdn.poehali.dev/templates/creative-portfolio-ru/gallery-5.jpg',
+  'https://cdn.poehali.dev/projects/3f731d95-c1df-4769-9eb1-3d51a9d9d75d/files/9a038e40-26f2-4a24-b7a1-b161888672f3.jpg',
+  'https://cdn.poehali.dev/projects/3f731d95-c1df-4769-9eb1-3d51a9d9d75d/files/9deb3aa3-d26c-4eb6-9eff-296fd1467393.jpg',
+  'https://cdn.poehali.dev/projects/3f731d95-c1df-4769-9eb1-3d51a9d9d75d/files/34cc654f-ef12-46d2-89ae-8b1a84fa63da.jpg',
 ];
 
 export default function HeroSection() {
@@ -70,6 +69,9 @@ export default function HeroSection() {
             >
               <div className="space-y-5">
                 <div>
+                  <span className="mb-3 inline-block rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs tracking-widest text-white/70 uppercase backdrop-blur-sm">
+                    Молодой специалист
+                  </span>
                   <p className="text-3xl font-light text-white md:text-4xl lg:text-5xl">
                     Зимина Валерия Олеговна
                   </p>
