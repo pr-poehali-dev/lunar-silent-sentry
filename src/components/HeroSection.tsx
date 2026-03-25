@@ -55,7 +55,7 @@ export default function HeroSection() {
             >
               <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-white shadow-2xl md:h-64 md:w-64">
                 <img
-                  src="https://cdn.poehali.dev/templates/creative-portfolio-ru/portrait.jpg"
+                  src="https://cdn.poehali.dev/projects/3f731d95-c1df-4769-9eb1-3d51a9d9d75d/bucket/09d43a0c-ecab-4b9e-9e8f-73874e3c78b6.jpeg"
                   alt="Зимина Валерия Олеговна"
                   className="h-full w-full object-cover"
                 />
