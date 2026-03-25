@@ -84,7 +84,7 @@ export default function About() {
               ГПОУ «Педагогический колледж г. Сретенска»
             </h3>
             <p className="text-sm text-white/50">Специальность: Преподавание в начальных классах</p>
-            <p className="mt-1 text-sm text-white/40">г. Сретенск, Забайкальский край</p>
+            <p className="mt-1 text-sm text-white/40">г. Сретенск, Забайкальский край · Выпуск 2026</p>
           </div>
         </div>
       </section>
