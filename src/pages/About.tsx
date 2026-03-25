@@ -73,6 +73,22 @@ export default function About() {
         </div>
       </section>
 
+      {/* Education */}
+      <section className="px-8 py-16 md:px-16 bg-zinc-900">
+        <div className="container mx-auto max-w-5xl">
+          <h2 className="mb-10 text-3xl font-light text-white">Образование</h2>
+          <div className="relative border-l border-white/20 pl-8">
+            <div className="absolute -left-2 top-1 h-4 w-4 rounded-full border-2 border-white/50 bg-zinc-900" />
+            <p className="text-xs tracking-widest text-white/40 uppercase mb-1">Среднее профессиональное образование</p>
+            <h3 className="text-xl font-medium text-white mb-1">
+              ГПОУ «Педагогический колледж г. Сретенска»
+            </h3>
+            <p className="text-sm text-white/50">Специальность: Преподавание в начальных классах</p>
+            <p className="mt-1 text-sm text-white/40">г. Сретенск, Забайкальский край</p>
+          </div>
+        </div>
+      </section>
+
       {/* Qualities */}
       <section className="px-8 py-20 md:px-16">
         <div className="container mx-auto max-w-5xl">
